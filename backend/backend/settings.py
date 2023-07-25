@@ -9,9 +9,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = os.getenv('TOKEN', 'biba')
 
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['*',]
+ALLOWED_HOSTS = ['158.160.71.252', '127.0.0.1', 'localhost', 'gayparty.ddns.net',]
 
 
 # Application definition
