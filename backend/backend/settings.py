@@ -11,7 +11,7 @@ SECRET_KEY = os.getenv('TOKEN', 'biba')
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*',]
 
 
 # Application definition
