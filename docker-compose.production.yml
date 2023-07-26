@@ -20,7 +20,7 @@ services:
     depends_on:
       - db
   frontend:
-    image: deniv/taski_frontend  # Качаем с Docker Hub
+    image: deniv/taski_frontend
     env_file: .env
     command: cp -r /app/build/. /frontend_static/
     volumes:
